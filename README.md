@@ -1,24 +1,25 @@
-# mouse-cursor
+# Vue MouseCursor 
 
-## Project setup
-```
-yarn install
-```
+![Screenshot](public/example-image.png?raw=true)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+This Vue component integrates its own mouse cursor into your project. It inverts the background and reacts to communicated hover states. 
 
-### Compiles and minifies for production
-```
-yarn build
-```
+The following properties can be overwritten: 
 
-### Lints and fixes files
-```
-yarn lint
-```
+Name | Type | Default
+----- | ------ | --------
+radius | Number | 30
+hover-radius | Number | 30
+is-hover | Boolean | false 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Install
+
+`yarn add @rnwcode/vue-mouse-cursor`
+
+or 
+
+`npm install --save @rnwcode/vue-mouse-cursor`
+
+## Usage
+
+`<MouseCursor v-bind:is-hover="mouseHover"> ... </MouseCursor>`
