@@ -11,6 +11,7 @@ Name | Type | Default
 radius | Number | 30
 hover-radius | Number | 30
 is-hover | Boolean | false 
+is-animated | Boolean | true
 
 ## Install
 

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <MouseCursor radius="30" hover-radius="30" v-bind:is-hover="isHover">
+    <MouseCursor>
       <ExamplePage />
     </MouseCursor>
   </div>

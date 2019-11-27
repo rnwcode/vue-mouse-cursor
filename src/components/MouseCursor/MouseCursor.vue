@@ -1,6 +1,6 @@
 <template>
     <div class="MouseCursor" v-on:mousemove="setNewCords">
-        <div class="MouseCursorElement" v-bind:style="getCurrentStyles()"></div>
+        <div class="MouseCursorElement" v-bind:style="getCurrentStyles()" v-bind:class="{isAnimated: isAnimated}"></div>
         <slot></slot>
     </div>
 </template>
@@ -22,11 +22,15 @@
             isHover: {
                 type: Boolean,
                 default: false
+            },
+            isAnimated: {
+                type: Boolean,
+                default: true
             }
         },
         data: () => ({
             x: 0,
-            y: 0
+            y: 0,
         }),
         methods: {
             setNewCords: function (event) {
