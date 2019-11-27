@@ -1,0 +1,13 @@
+.MouseCursor {
+    cursor: none;
+}
+
+.MouseCursor .MouseCursorElement {
+    position: fixed;
+    background: #fff;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    z-index: 999;
+}
+
+
