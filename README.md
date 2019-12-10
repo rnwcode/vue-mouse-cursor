@@ -1,6 +1,6 @@
 # Vue MouseCursor 
 
-![Screenshot](public/example-image.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/rnwcode/vue-mouse-cursor/master/public/example-image.png)
 
 This Vue component integrates its own mouse cursor into your project. It inverts the background and reacts to communicated hover states. 
 
